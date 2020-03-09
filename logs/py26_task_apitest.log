@@ -1,0 +1,812 @@
+2020-03-09 11:49:55,156 - [test_email.py-->line:48] - ERROR: 测试用例邮箱未注册执行未通过
+2020-03-09 11:49:55,156 - [test_email.py-->line:49] - ERROR: 'Response' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_email.py", line 45, in test_email
+    self.assertEqual(response['status'],expected['status'])
+TypeError: 'Response' object is not subscriptable
+2020-03-09 11:49:55,355 - [test_email.py-->line:48] - ERROR: 测试用例邮箱已经注册执行未通过
+2020-03-09 11:49:55,355 - [test_email.py-->line:49] - ERROR: 'Response' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_email.py", line 45, in test_email
+    self.assertEqual(response['status'],expected['status'])
+TypeError: 'Response' object is not subscriptable
+2020-03-09 11:49:55,623 - [test_email.py-->line:48] - ERROR: 测试用例邮箱@前0位执行未通过
+2020-03-09 11:49:55,624 - [test_email.py-->line:49] - ERROR: 'Response' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_email.py", line 45, in test_email
+    self.assertEqual(response['status'],expected['status'])
+TypeError: 'Response' object is not subscriptable
+2020-03-09 11:49:55,819 - [test_email.py-->line:48] - ERROR: 测试用例邮箱中包含特殊字符执行未通过
+2020-03-09 11:49:55,820 - [test_email.py-->line:49] - ERROR: 'Response' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_email.py", line 45, in test_email
+    self.assertEqual(response['status'],expected['status'])
+TypeError: 'Response' object is not subscriptable
+2020-03-09 11:49:56,034 - [test_email.py-->line:48] - ERROR: 测试用例邮箱格式不正确执行未通过
+2020-03-09 11:49:56,034 - [test_email.py-->line:49] - ERROR: 'Response' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_email.py", line 45, in test_email
+    self.assertEqual(response['status'],expected['status'])
+TypeError: 'Response' object is not subscriptable
+2020-03-09 11:49:56,268 - [test_user.py-->line:48] - ERROR: 测试用例用户名已注册执行未通过
+2020-03-09 11:49:56,268 - [test_user.py-->line:49] - ERROR: 'Response' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_user.py", line 45, in test_user
+    self.assertEqual(response['status'],expected['status'])
+TypeError: 'Response' object is not subscriptable
+2020-03-09 11:49:56,463 - [test_user.py-->line:48] - ERROR: 测试用例用户名未注册执行未通过
+2020-03-09 11:49:56,463 - [test_user.py-->line:49] - ERROR: 'Response' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_user.py", line 45, in test_user
+    self.assertEqual(response['status'],expected['status'])
+TypeError: 'Response' object is not subscriptable
+2020-03-09 11:49:56,686 - [test_user.py-->line:48] - ERROR: 测试用例用户名小于6位执行未通过
+2020-03-09 11:49:56,686 - [test_user.py-->line:49] - ERROR: 'Response' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_user.py", line 45, in test_user
+    self.assertEqual(response['status'],expected['status'])
+TypeError: 'Response' object is not subscriptable
+2020-03-09 11:49:56,888 - [test_user.py-->line:48] - ERROR: 测试用例用户名大于20位执行未通过
+2020-03-09 11:49:56,888 - [test_user.py-->line:49] - ERROR: 'Response' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_user.py", line 45, in test_user
+    self.assertEqual(response['status'],expected['status'])
+TypeError: 'Response' object is not subscriptable
+2020-03-09 11:49:57,100 - [test_user.py-->line:48] - ERROR: 测试用例用户名包含特殊字符执行未通过
+2020-03-09 11:49:57,101 - [test_user.py-->line:49] - ERROR: 'Response' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_user.py", line 45, in test_user
+    self.assertEqual(response['status'],expected['status'])
+TypeError: 'Response' object is not subscriptable
+2020-03-09 11:59:07,472 - [test_email.py-->line:50] - ERROR: 测试用例邮箱未注册执行未通过
+2020-03-09 11:59:07,474 - [test_email.py-->line:51] - ERROR: 404 != 200
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_email.py", line 47, in test_email
+    self.assertEqual(status_code,expected['status'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 404 != 200
+2020-03-09 11:59:07,686 - [test_email.py-->line:50] - ERROR: 测试用例邮箱已经注册执行未通过
+2020-03-09 11:59:07,686 - [test_email.py-->line:51] - ERROR: 404 != 200
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_email.py", line 47, in test_email
+    self.assertEqual(status_code,expected['status'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 404 != 200
+2020-03-09 11:59:07,924 - [test_email.py-->line:55] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 11:59:08,114 - [test_email.py-->line:55] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 11:59:08,327 - [test_email.py-->line:55] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 11:59:08,625 - [test_user.py-->line:49] - ERROR: 测试用例用户名已注册执行未通过
+2020-03-09 11:59:08,626 - [test_user.py-->line:50] - ERROR: 404 != 200
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_user.py", line 46, in test_user
+    self.assertEqual(status_code,expected['status'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 404 != 200
+2020-03-09 11:59:08,823 - [test_user.py-->line:49] - ERROR: 测试用例用户名未注册执行未通过
+2020-03-09 11:59:08,823 - [test_user.py-->line:50] - ERROR: 404 != 200
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_user.py", line 46, in test_user
+    self.assertEqual(status_code,expected['status'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 404 != 200
+2020-03-09 11:59:09,033 - [test_user.py-->line:54] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 11:59:09,229 - [test_user.py-->line:54] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 11:59:09,455 - [test_user.py-->line:54] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 12:04:12,715 - [test_email.py-->line:51] - ERROR: 测试用例邮箱未注册执行未通过
+2020-03-09 12:04:12,717 - [test_email.py-->line:52] - ERROR: 404 != 200
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_email.py", line 48, in test_email
+    self.assertEqual(status_code,expected['status'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 404 != 200
+2020-03-09 12:04:12,905 - [test_email.py-->line:51] - ERROR: 测试用例邮箱已经注册执行未通过
+2020-03-09 12:04:12,905 - [test_email.py-->line:52] - ERROR: 404 != 200
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_email.py", line 48, in test_email
+    self.assertEqual(status_code,expected['status'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 404 != 200
+2020-03-09 12:04:13,108 - [test_email.py-->line:56] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 12:04:13,300 - [test_email.py-->line:56] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 12:04:13,550 - [test_email.py-->line:56] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 12:04:13,804 - [test_user.py-->line:50] - ERROR: 测试用例用户名已注册执行未通过
+2020-03-09 12:04:13,804 - [test_user.py-->line:51] - ERROR: 404 != 200
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_user.py", line 47, in test_user
+    self.assertEqual(status_code,expected['status'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 404 != 200
+2020-03-09 12:04:14,088 - [test_user.py-->line:50] - ERROR: 测试用例用户名未注册执行未通过
+2020-03-09 12:04:14,089 - [test_user.py-->line:51] - ERROR: 404 != 200
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_user.py", line 47, in test_user
+    self.assertEqual(status_code,expected['status'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 404 != 200
+2020-03-09 12:04:14,302 - [test_user.py-->line:55] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 12:04:14,509 - [test_user.py-->line:55] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 12:04:14,769 - [test_user.py-->line:55] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 12:04:47,104 - [test_email.py-->line:56] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 12:04:47,292 - [test_email.py-->line:56] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 12:04:47,485 - [test_email.py-->line:56] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 12:04:47,683 - [test_email.py-->line:56] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 12:04:47,969 - [test_email.py-->line:56] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 12:04:48,212 - [test_user.py-->line:55] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 12:04:48,444 - [test_user.py-->line:55] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 12:04:48,751 - [test_user.py-->line:55] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 12:04:48,972 - [test_user.py-->line:55] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 12:04:49,156 - [test_user.py-->line:55] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 12:07:19,252 - [test_email.py-->line:58] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 12:07:19,508 - [test_email.py-->line:58] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 12:07:20,025 - [test_user.py-->line:57] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 12:07:20,297 - [test_user.py-->line:57] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 12:09:02,317 - [test_email.py-->line:59] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 12:09:02,521 - [test_email.py-->line:59] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 12:09:02,734 - [test_email.py-->line:59] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 12:09:02,935 - [test_email.py-->line:59] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 12:09:03,138 - [test_email.py-->line:59] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 12:09:03,526 - [test_user.py-->line:58] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 12:09:03,793 - [test_user.py-->line:58] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 12:09:04,007 - [test_user.py-->line:58] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 12:09:04,253 - [test_user.py-->line:58] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 12:09:04,457 - [test_user.py-->line:58] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 12:16:52,829 - [test_email.py-->line:61] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 12:16:53,041 - [test_email.py-->line:61] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 12:16:53,259 - [test_email.py-->line:61] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 12:16:53,511 - [test_email.py-->line:61] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 12:16:53,723 - [test_email.py-->line:61] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 12:16:53,971 - [test_user.py-->line:60] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 12:16:54,193 - [test_user.py-->line:60] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 12:16:54,426 - [test_user.py-->line:60] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 12:16:54,614 - [test_user.py-->line:60] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 12:16:54,814 - [test_user.py-->line:60] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 12:19:39,089 - [test_email.py-->line:61] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 12:19:39,286 - [test_email.py-->line:61] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 12:19:39,518 - [test_email.py-->line:61] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 12:19:39,707 - [test_email.py-->line:61] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 12:19:39,919 - [test_email.py-->line:61] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 12:19:40,158 - [test_user.py-->line:60] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 12:19:40,343 - [test_user.py-->line:60] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 12:19:40,538 - [test_user.py-->line:60] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 12:19:40,757 - [test_user.py-->line:60] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 12:19:40,953 - [test_user.py-->line:60] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 12:21:35,841 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 12:21:36,028 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 12:21:36,217 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 12:21:36,403 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 12:21:36,614 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 12:21:36,865 - [test_user.py-->line:60] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 12:21:37,053 - [test_user.py-->line:60] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 12:21:37,265 - [test_user.py-->line:60] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 12:21:37,469 - [test_user.py-->line:60] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 12:21:37,695 - [test_user.py-->line:60] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 12:22:46,414 - [test_email.py-->line:66] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 12:22:46,646 - [test_email.py-->line:66] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 12:22:47,114 - [test_user.py-->line:60] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 12:22:47,329 - [test_user.py-->line:60] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 12:22:47,527 - [test_user.py-->line:60] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 12:22:47,745 - [test_user.py-->line:60] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 12:22:47,941 - [test_user.py-->line:60] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 12:29:24,343 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 12:29:24,572 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 12:29:25,004 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 12:29:25,286 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 12:29:25,530 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 12:29:25,815 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 12:29:26,053 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 12:29:26,239 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 12:29:26,451 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 12:29:26,709 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 12:50:58,616 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 12:50:58,818 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 12:50:59,037 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 12:50:59,234 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 12:50:59,429 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 12:50:59,720 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 12:50:59,929 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 12:51:00,135 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 12:51:00,335 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 12:51:00,552 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 12:55:26,397 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 12:55:26,646 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 12:55:26,846 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 12:55:27,130 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 12:55:27,358 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 12:55:27,615 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 12:55:27,812 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 12:55:28,012 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 12:55:28,225 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 12:55:28,457 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 12:57:26,426 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 12:57:26,683 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 12:57:26,914 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 12:57:27,139 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 12:57:27,338 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 12:57:27,632 - [test_register.py-->line:60] - ERROR: 测试用例正常注册执行未通过
+2020-03-09 12:57:27,632 - [test_register.py-->line:61] - ERROR: 405 != 201
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_register.py", line 57, in test_register
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 405 != 201
+2020-03-09 12:57:27,910 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 12:57:28,102 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 12:57:28,293 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 12:57:28,480 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 12:57:28,680 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 13:00:04,308 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 13:00:04,497 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 13:00:04,685 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 13:00:04,899 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 13:00:05,082 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 13:00:05,397 - [test_register.py-->line:60] - ERROR: 测试用例正常注册执行未通过
+2020-03-09 13:00:05,397 - [test_register.py-->line:61] - ERROR: 405 != 201
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_register.py", line 57, in test_register
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 405 != 201
+2020-03-09 13:00:05,746 - [test_register.py-->line:60] - ERROR: 测试用例用户名已经注册执行未通过
+2020-03-09 13:00:05,746 - [test_register.py-->line:61] - ERROR: 405 != 400
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_register.py", line 57, in test_register
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 405 != 400
+2020-03-09 13:00:06,007 - [test_register.py-->line:60] - ERROR: 测试用例邮箱已经注册执行未通过
+2020-03-09 13:00:06,008 - [test_register.py-->line:61] - ERROR: 405 != 400
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_register.py", line 57, in test_register
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 405 != 400
+2020-03-09 13:00:06,280 - [test_register.py-->line:60] - ERROR: 测试用例密码小于6位执行未通过
+2020-03-09 13:00:06,280 - [test_register.py-->line:61] - ERROR: 405 != 400
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_register.py", line 57, in test_register
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 405 != 400
+2020-03-09 13:00:06,663 - [test_register.py-->line:60] - ERROR: 测试用例密码大于20位执行未通过
+2020-03-09 13:00:06,664 - [test_register.py-->line:61] - ERROR: 405 != 400
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_register.py", line 57, in test_register
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 405 != 400
+2020-03-09 13:00:07,029 - [test_register.py-->line:60] - ERROR: 测试用例密码和确认不一致执行未通过
+2020-03-09 13:00:07,030 - [test_register.py-->line:61] - ERROR: 405 != 400
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_register.py", line 57, in test_register
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 405 != 400
+2020-03-09 13:00:07,355 - [test_register.py-->line:60] - ERROR: 测试用例用户名为空执行未通过
+2020-03-09 13:00:07,355 - [test_register.py-->line:61] - ERROR: 405 != 400
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_register.py", line 57, in test_register
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 405 != 400
+2020-03-09 13:00:07,727 - [test_register.py-->line:60] - ERROR: 测试用例邮箱为空执行未通过
+2020-03-09 13:00:07,727 - [test_register.py-->line:61] - ERROR: 405 != 400
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_register.py", line 57, in test_register
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 405 != 400
+2020-03-09 13:00:08,038 - [test_register.py-->line:60] - ERROR: 测试用例密码为空执行未通过
+2020-03-09 13:00:08,039 - [test_register.py-->line:61] - ERROR: 405 != 400
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_register.py", line 57, in test_register
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 405 != 400
+2020-03-09 13:00:08,304 - [test_register.py-->line:60] - ERROR: 测试用例确认密码为空执行未通过
+2020-03-09 13:00:08,305 - [test_register.py-->line:61] - ERROR: 405 != 400
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_register.py", line 57, in test_register
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 405 != 400
+2020-03-09 13:00:08,625 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 13:00:08,845 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 13:00:09,057 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 13:00:09,251 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 13:00:09,447 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 13:02:46,889 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 13:02:47,079 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 13:02:47,275 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 13:02:47,522 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 13:02:47,745 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 13:02:48,134 - [test_register.py-->line:65] - ERROR: 测试用例正常注册执行通过
+2020-03-09 13:02:48,327 - [test_register.py-->line:65] - ERROR: 测试用例用户名已经注册执行通过
+2020-03-09 13:02:48,542 - [test_register.py-->line:65] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 13:02:48,754 - [test_register.py-->line:65] - ERROR: 测试用例密码小于6位执行通过
+2020-03-09 13:02:48,950 - [test_register.py-->line:65] - ERROR: 测试用例密码大于20位执行通过
+2020-03-09 13:02:49,148 - [test_register.py-->line:65] - ERROR: 测试用例密码和确认不一致执行通过
+2020-03-09 13:02:49,371 - [test_register.py-->line:65] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 13:02:49,565 - [test_register.py-->line:65] - ERROR: 测试用例邮箱为空执行通过
+2020-03-09 13:02:49,801 - [test_register.py-->line:65] - ERROR: 测试用例密码为空执行通过
+2020-03-09 13:02:50,012 - [test_register.py-->line:65] - ERROR: 测试用例确认密码为空执行通过
+2020-03-09 13:02:50,265 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 13:02:50,502 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 13:02:50,703 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 13:02:50,921 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 13:02:51,117 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 15:05:08,797 - [test_email.py-->line:59] - ERROR: 测试用例邮箱未注册执行未通过
+2020-03-09 15:05:08,798 - [test_email.py-->line:60] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_email.py", line 56, in test_email
+    self.assertEqual(content['count'],expected['count'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-03-09 15:05:08,992 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 15:05:09,188 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 15:05:09,393 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 15:05:09,578 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 15:05:10,033 - [test_login.py-->line:60] - ERROR: 测试用例登录成功执行通过
+2020-03-09 15:05:10,357 - [test_login.py-->line:60] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 15:05:10,684 - [test_login.py-->line:60] - ERROR: 测试用例密码错误执行通过
+2020-03-09 15:05:10,872 - [test_login.py-->line:60] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 15:05:11,068 - [test_login.py-->line:60] - ERROR: 测试用例密码为空执行通过
+2020-03-09 15:05:11,358 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 15:05:11,570 - [test_user.py-->line:59] - ERROR: 测试用例用户名未注册执行未通过
+2020-03-09 15:05:11,571 - [test_user.py-->line:60] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_user.py", line 56, in test_user
+    self.assertEqual(content['count'],expected['count'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-03-09 15:05:11,759 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 15:05:11,977 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 15:05:12,192 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 15:08:41,812 - [test_email.py-->line:59] - ERROR: 测试用例邮箱未注册执行未通过
+2020-03-09 15:08:41,814 - [test_email.py-->line:60] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_email.py", line 56, in test_email
+    self.assertEqual(content['count'],expected['count'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-03-09 15:08:42,041 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 15:08:42,238 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 15:08:42,441 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 15:08:42,627 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 15:08:43,000 - [test_login.py-->line:62] - ERROR: 测试用例登录成功执行通过
+2020-03-09 15:08:43,329 - [test_login.py-->line:62] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 15:08:43,661 - [test_login.py-->line:62] - ERROR: 测试用例密码错误执行通过
+2020-03-09 15:08:43,849 - [test_login.py-->line:62] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 15:08:44,039 - [test_login.py-->line:62] - ERROR: 测试用例密码为空执行通过
+2020-03-09 15:08:44,317 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 15:08:44,506 - [test_user.py-->line:59] - ERROR: 测试用例用户名未注册执行未通过
+2020-03-09 15:08:44,507 - [test_user.py-->line:60] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_user.py", line 56, in test_user
+    self.assertEqual(content['count'],expected['count'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-03-09 15:08:44,731 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 15:08:44,944 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 15:08:45,224 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 15:13:42,677 - [test_email.py-->line:59] - ERROR: 测试用例邮箱未注册执行未通过
+2020-03-09 15:13:42,677 - [test_email.py-->line:60] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_email.py", line 56, in test_email
+    self.assertEqual(content['count'],expected['count'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-03-09 15:13:42,884 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 15:13:43,075 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 15:13:43,297 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 15:13:43,482 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 15:13:43,857 - [test_login.py-->line:60] - ERROR: 测试用例登录成功执行通过
+2020-03-09 15:13:44,177 - [test_login.py-->line:60] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 15:13:44,506 - [test_login.py-->line:60] - ERROR: 测试用例密码错误执行通过
+2020-03-09 15:13:44,697 - [test_login.py-->line:60] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 15:13:44,899 - [test_login.py-->line:60] - ERROR: 测试用例密码为空执行通过
+2020-03-09 15:13:45,168 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 15:13:45,378 - [test_user.py-->line:59] - ERROR: 测试用例用户名未注册执行未通过
+2020-03-09 15:13:45,378 - [test_user.py-->line:60] - ERROR: 1 != 0
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_user.py", line 56, in test_user
+    self.assertEqual(content['count'],expected['count'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-03-09 15:13:45,578 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 15:13:45,787 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 15:13:45,984 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 15:19:36,860 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 15:19:37,044 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 15:19:37,227 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 15:19:37,428 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 15:19:37,791 - [test_login.py-->line:60] - ERROR: 测试用例登录成功执行通过
+2020-03-09 15:19:38,118 - [test_login.py-->line:60] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 15:19:38,454 - [test_login.py-->line:60] - ERROR: 测试用例密码错误执行通过
+2020-03-09 15:19:38,640 - [test_login.py-->line:60] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 15:19:38,854 - [test_login.py-->line:60] - ERROR: 测试用例密码为空执行通过
+2020-03-09 15:19:39,103 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 15:19:39,299 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 15:19:39,489 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 15:19:39,687 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 15:19:39,879 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 15:20:57,051 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 15:20:57,254 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 15:20:57,433 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 15:20:57,627 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 15:20:57,818 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 15:20:58,166 - [test_login.py-->line:60] - ERROR: 测试用例登录成功执行通过
+2020-03-09 15:20:58,494 - [test_login.py-->line:60] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 15:20:58,804 - [test_login.py-->line:60] - ERROR: 测试用例密码错误执行通过
+2020-03-09 15:20:59,016 - [test_login.py-->line:60] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 15:20:59,239 - [test_login.py-->line:60] - ERROR: 测试用例密码为空执行通过
+2020-03-09 15:20:59,530 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 15:20:59,769 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 15:21:00,027 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 15:21:00,239 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 15:21:00,423 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 15:49:48,918 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 15:49:49,112 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 15:49:49,324 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 15:49:49,528 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 15:49:49,751 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 15:49:50,128 - [test_login.py-->line:60] - ERROR: 测试用例登录成功执行通过
+2020-03-09 15:49:50,445 - [test_login.py-->line:60] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 15:49:50,767 - [test_login.py-->line:60] - ERROR: 测试用例密码错误执行通过
+2020-03-09 15:49:50,957 - [test_login.py-->line:60] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 15:49:51,162 - [test_login.py-->line:60] - ERROR: 测试用例密码为空执行通过
+2020-03-09 15:49:51,414 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 15:49:51,605 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 15:49:51,793 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 15:49:51,978 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 15:49:52,166 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 15:51:08,779 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 15:51:08,960 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 15:51:09,157 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 15:51:09,341 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 15:51:09,529 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 15:51:09,902 - [test_login.py-->line:60] - ERROR: 测试用例登录成功执行通过
+2020-03-09 15:51:10,222 - [test_login.py-->line:60] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 15:51:10,583 - [test_login.py-->line:60] - ERROR: 测试用例密码错误执行通过
+2020-03-09 15:51:10,768 - [test_login.py-->line:60] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 15:51:10,973 - [test_login.py-->line:60] - ERROR: 测试用例密码为空执行通过
+2020-03-09 15:51:11,427 - [test_project.py-->line:71] - ERROR: 测试用例成功创建项目执行通过
+2020-03-09 15:51:11,651 - [test_project.py-->line:66] - ERROR: 测试用例项目名称超过200个字符执行未通过
+2020-03-09 15:51:11,652 - [test_project.py-->line:67] - ERROR: 400 != 404
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 63, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 404
+2020-03-09 15:51:11,855 - [test_project.py-->line:66] - ERROR: 测试用例项目负责人超过50个字符执行未通过
+2020-03-09 15:51:11,855 - [test_project.py-->line:67] - ERROR: 400 != 404
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 63, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 404
+2020-03-09 15:51:12,065 - [test_project.py-->line:66] - ERROR: 测试用例项目测试人员超过50个字符执行未通过
+2020-03-09 15:51:12,065 - [test_project.py-->line:67] - ERROR: 400 != 404
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 63, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 404
+2020-03-09 15:51:12,269 - [test_project.py-->line:66] - ERROR: 测试用例开发人员超过50个字符执行未通过
+2020-03-09 15:51:12,270 - [test_project.py-->line:67] - ERROR: 400 != 404
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 63, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 404
+2020-03-09 15:51:12,482 - [test_project.py-->line:66] - ERROR: 测试用例发布应用超过100个字符执行未通过
+2020-03-09 15:51:12,482 - [test_project.py-->line:67] - ERROR: 400 != 404
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 63, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 404
+2020-03-09 15:51:12,703 - [test_project.py-->line:66] - ERROR: 测试用例简要描述超过200个字符执行未通过
+2020-03-09 15:51:12,703 - [test_project.py-->line:67] - ERROR: 400 != 404
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 63, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 404
+2020-03-09 15:51:12,907 - [test_project.py-->line:66] - ERROR: 测试用例项目名称字段为空执行未通过
+2020-03-09 15:51:12,907 - [test_project.py-->line:67] - ERROR: 400 != 404
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 63, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 404
+2020-03-09 15:51:13,109 - [test_project.py-->line:66] - ERROR: 测试用例项目负责人字段为空执行未通过
+2020-03-09 15:51:13,109 - [test_project.py-->line:67] - ERROR: 400 != 404
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 63, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 404
+2020-03-09 15:51:13,343 - [test_project.py-->line:66] - ERROR: 测试用例项目测试人员字段为空执行未通过
+2020-03-09 15:51:13,344 - [test_project.py-->line:67] - ERROR: 400 != 404
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 63, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 404
+2020-03-09 15:51:13,541 - [test_project.py-->line:66] - ERROR: 测试用例发布应用字段为空执行未通过
+2020-03-09 15:51:13,541 - [test_project.py-->line:67] - ERROR: 400 != 404
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 63, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 404
+2020-03-09 15:51:13,765 - [test_project.py-->line:66] - ERROR: 测试用例开发人员字段为空执行未通过
+2020-03-09 15:51:13,765 - [test_project.py-->line:67] - ERROR: 400 != 404
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 63, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 404
+2020-03-09 15:51:14,002 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 15:51:14,196 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 15:51:14,441 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 15:51:14,624 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 15:51:14,836 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 15:52:37,662 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 15:52:37,879 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 15:52:38,058 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 15:52:38,271 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 15:52:38,475 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 15:52:38,833 - [test_login.py-->line:60] - ERROR: 测试用例登录成功执行通过
+2020-03-09 15:52:39,154 - [test_login.py-->line:60] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 15:52:39,472 - [test_login.py-->line:60] - ERROR: 测试用例密码错误执行通过
+2020-03-09 15:52:39,672 - [test_login.py-->line:60] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 15:52:39,864 - [test_login.py-->line:60] - ERROR: 测试用例密码为空执行通过
+2020-03-09 15:52:40,273 - [test_project.py-->line:66] - ERROR: 测试用例成功创建项目执行未通过
+2020-03-09 15:52:40,274 - [test_project.py-->line:67] - ERROR: 400 != 201
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 63, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 201
+2020-03-09 15:52:40,497 - [test_project.py-->line:71] - ERROR: 测试用例项目名称超过200个字符执行通过
+2020-03-09 15:52:40,691 - [test_project.py-->line:71] - ERROR: 测试用例项目负责人超过50个字符执行通过
+2020-03-09 15:52:40,893 - [test_project.py-->line:71] - ERROR: 测试用例项目测试人员超过50个字符执行通过
+2020-03-09 15:52:41,091 - [test_project.py-->line:71] - ERROR: 测试用例开发人员超过50个字符执行通过
+2020-03-09 15:52:41,289 - [test_project.py-->line:71] - ERROR: 测试用例发布应用超过100个字符执行通过
+2020-03-09 15:52:41,501 - [test_project.py-->line:71] - ERROR: 测试用例简要描述超过200个字符执行通过
+2020-03-09 15:52:41,691 - [test_project.py-->line:71] - ERROR: 测试用例项目名称字段为空执行通过
+2020-03-09 15:52:41,902 - [test_project.py-->line:71] - ERROR: 测试用例项目负责人字段为空执行通过
+2020-03-09 15:52:42,087 - [test_project.py-->line:71] - ERROR: 测试用例项目测试人员字段为空执行通过
+2020-03-09 15:52:42,284 - [test_project.py-->line:71] - ERROR: 测试用例发布应用字段为空执行通过
+2020-03-09 15:52:42,467 - [test_project.py-->line:71] - ERROR: 测试用例开发人员字段为空执行通过
+2020-03-09 15:52:42,751 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 15:52:42,957 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 15:52:43,201 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 15:52:43,408 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 15:52:43,590 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 15:59:02,689 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 15:59:03,164 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 15:59:03,413 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 15:59:03,603 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 15:59:03,830 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 15:59:04,192 - [test_login.py-->line:60] - ERROR: 测试用例登录成功执行通过
+2020-03-09 15:59:04,534 - [test_login.py-->line:60] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 15:59:04,888 - [test_login.py-->line:60] - ERROR: 测试用例密码错误执行通过
+2020-03-09 15:59:05,127 - [test_login.py-->line:60] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 15:59:05,397 - [test_login.py-->line:60] - ERROR: 测试用例密码为空执行通过
+2020-03-09 15:59:05,975 - [test_project.py-->line:74] - ERROR: 测试用例成功创建项目执行通过
+2020-03-09 15:59:06,268 - [test_project.py-->line:69] - ERROR: 测试用例项目已经存在（name存在）执行未通过
+2020-03-09 15:59:06,269 - [test_project.py-->line:70] - ERROR: 400 != 201
+Traceback (most recent call last):
+  File "D:\task_testing\testcases\test_project.py", line 66, in test_project
+    self.assertEqual(status_code,expected['status_code'])
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ann\AppData\Local\Programs\Python\Python36\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 400 != 201
+2020-03-09 15:59:06,489 - [test_project.py-->line:74] - ERROR: 测试用例项目名称超过200个字符执行通过
+2020-03-09 15:59:06,737 - [test_project.py-->line:74] - ERROR: 测试用例项目负责人超过50个字符执行通过
+2020-03-09 15:59:07,001 - [test_project.py-->line:74] - ERROR: 测试用例项目测试人员超过50个字符执行通过
+2020-03-09 15:59:07,197 - [test_project.py-->line:74] - ERROR: 测试用例开发人员超过50个字符执行通过
+2020-03-09 15:59:07,403 - [test_project.py-->line:74] - ERROR: 测试用例发布应用超过100个字符执行通过
+2020-03-09 15:59:07,603 - [test_project.py-->line:74] - ERROR: 测试用例简要描述超过200个字符执行通过
+2020-03-09 15:59:07,831 - [test_project.py-->line:74] - ERROR: 测试用例项目名称字段为空执行通过
+2020-03-09 15:59:08,125 - [test_project.py-->line:74] - ERROR: 测试用例项目负责人字段为空执行通过
+2020-03-09 15:59:08,432 - [test_project.py-->line:74] - ERROR: 测试用例项目测试人员字段为空执行通过
+2020-03-09 15:59:08,626 - [test_project.py-->line:74] - ERROR: 测试用例发布应用字段为空执行通过
+2020-03-09 15:59:08,885 - [test_project.py-->line:74] - ERROR: 测试用例开发人员字段为空执行通过
+2020-03-09 15:59:09,205 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 15:59:09,496 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 15:59:09,759 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 15:59:09,946 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 15:59:10,184 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 16:48:55,954 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 16:48:56,530 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 16:48:56,767 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 16:48:56,970 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 16:48:57,163 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 16:48:57,837 - [test_login.py-->line:60] - ERROR: 测试用例登录成功执行通过
+2020-03-09 16:48:58,174 - [test_login.py-->line:60] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 16:48:58,496 - [test_login.py-->line:60] - ERROR: 测试用例密码错误执行通过
+2020-03-09 16:48:58,709 - [test_login.py-->line:60] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 16:48:58,908 - [test_login.py-->line:60] - ERROR: 测试用例密码为空执行通过
+2020-03-09 16:48:59,143 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 16:48:59,332 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 16:48:59,529 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 16:48:59,713 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 16:48:59,926 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 16:53:47,351 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 16:53:47,549 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 16:53:47,750 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 16:53:47,962 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 16:53:48,144 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 16:53:49,415 - [test_login.py-->line:60] - ERROR: 测试用例登录成功执行通过
+2020-03-09 16:53:49,755 - [test_login.py-->line:60] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 16:53:50,107 - [test_login.py-->line:60] - ERROR: 测试用例密码错误执行通过
+2020-03-09 16:53:50,325 - [test_login.py-->line:60] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 16:53:50,556 - [test_login.py-->line:60] - ERROR: 测试用例密码为空执行通过
+2020-03-09 16:53:50,839 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 16:53:51,032 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 16:53:51,242 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 16:53:51,445 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 16:53:51,666 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 16:54:33,269 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 16:54:33,489 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 16:54:33,729 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 16:54:33,940 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 16:54:34,123 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 16:54:34,620 - [test_interface.py-->line:89] - ERROR: 测试用例成功创建接口执行通过
+2020-03-09 16:54:34,995 - [test_interface.py-->line:89] - ERROR: 测试用例对应的项目id不存在执行通过
+2020-03-09 16:54:35,271 - [test_interface.py-->line:89] - ERROR: 测试用例接口名称长度大于200个字符执行通过
+2020-03-09 16:54:35,531 - [test_interface.py-->line:89] - ERROR: 测试用例测试人员超过50个字符执行通过
+2020-03-09 16:54:35,824 - [test_interface.py-->line:89] - ERROR: 测试用例简要描述超过200个字符执行通过
+2020-03-09 16:54:36,105 - [test_interface.py-->line:89] - ERROR: 测试用例接口name为空执行通过
+2020-03-09 16:54:36,387 - [test_interface.py-->line:89] - ERROR: 测试用例测试人员为空执行通过
+2020-03-09 16:54:36,705 - [test_interface.py-->line:89] - ERROR: 测试用例项目id为空执行通过
+2020-03-09 16:54:37,123 - [test_login.py-->line:60] - ERROR: 测试用例登录成功执行通过
+2020-03-09 16:54:37,472 - [test_login.py-->line:60] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 16:54:37,807 - [test_login.py-->line:60] - ERROR: 测试用例密码错误执行通过
+2020-03-09 16:54:38,005 - [test_login.py-->line:60] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 16:54:38,193 - [test_login.py-->line:60] - ERROR: 测试用例密码为空执行通过
+2020-03-09 16:54:38,438 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 16:54:38,630 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 16:54:38,826 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 16:54:39,010 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 16:54:39,204 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
+2020-03-09 16:57:37,109 - [test_email.py-->line:64] - ERROR: 测试用例邮箱未注册执行通过
+2020-03-09 16:57:37,306 - [test_email.py-->line:64] - ERROR: 测试用例邮箱已经注册执行通过
+2020-03-09 16:57:37,507 - [test_email.py-->line:64] - ERROR: 测试用例邮箱@前0位执行通过
+2020-03-09 16:57:37,692 - [test_email.py-->line:64] - ERROR: 测试用例邮箱中包含特殊字符执行通过
+2020-03-09 16:57:37,894 - [test_email.py-->line:64] - ERROR: 测试用例邮箱格式不正确执行通过
+2020-03-09 16:57:38,378 - [test_interface.py-->line:91] - ERROR: 测试用例成功创建接口执行通过
+2020-03-09 16:57:38,656 - [test_interface.py-->line:91] - ERROR: 测试用例接口已经存在（name存在）执行通过
+2020-03-09 16:57:38,914 - [test_interface.py-->line:91] - ERROR: 测试用例对应的项目id不存在执行通过
+2020-03-09 16:57:39,193 - [test_interface.py-->line:91] - ERROR: 测试用例接口名称长度大于200个字符执行通过
+2020-03-09 16:57:39,479 - [test_interface.py-->line:91] - ERROR: 测试用例测试人员超过50个字符执行通过
+2020-03-09 16:57:39,764 - [test_interface.py-->line:91] - ERROR: 测试用例简要描述超过200个字符执行通过
+2020-03-09 16:57:40,028 - [test_interface.py-->line:91] - ERROR: 测试用例接口name为空执行通过
+2020-03-09 16:57:40,299 - [test_interface.py-->line:91] - ERROR: 测试用例测试人员为空执行通过
+2020-03-09 16:57:40,556 - [test_interface.py-->line:91] - ERROR: 测试用例项目id为空执行通过
+2020-03-09 16:57:40,929 - [test_login.py-->line:60] - ERROR: 测试用例登录成功执行通过
+2020-03-09 16:57:41,240 - [test_login.py-->line:60] - ERROR: 测试用例用户名在系统中不存在执行通过
+2020-03-09 16:57:41,571 - [test_login.py-->line:60] - ERROR: 测试用例密码错误执行通过
+2020-03-09 16:57:41,802 - [test_login.py-->line:60] - ERROR: 测试用例用户名为空执行通过
+2020-03-09 16:57:41,992 - [test_login.py-->line:60] - ERROR: 测试用例密码为空执行通过
+2020-03-09 16:57:42,239 - [test_user.py-->line:64] - ERROR: 测试用例用户名已注册执行通过
+2020-03-09 16:57:42,438 - [test_user.py-->line:64] - ERROR: 测试用例用户名未注册执行通过
+2020-03-09 16:57:42,634 - [test_user.py-->line:64] - ERROR: 测试用例用户名小于6位执行通过
+2020-03-09 16:57:42,831 - [test_user.py-->line:64] - ERROR: 测试用例用户名大于20位执行通过
+2020-03-09 16:57:43,023 - [test_user.py-->line:64] - ERROR: 测试用例用户名包含特殊字符执行通过
