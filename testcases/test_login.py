@@ -43,10 +43,14 @@ class TestLogin(unittest.TestCase):
         status_code = response.status_code
         print('执行接口后状态码是：', status_code)
 
-        content = response.content.decode('utf-8')
-        if status_code == 200:
-            content = eval(content)
-            print('登录成功的接口信息为：',content)
+
+        res = response.json()
+        print('执行接口后的响应结果是：',res)
+
+        # content = response.content.decode('utf-8')
+        # if status_code == 200:
+        #     content = eval(content)
+        #     print('登录成功的接口信息为：',content)
 
         try:
             self.assertEqual(status_code,expected['status_code'])

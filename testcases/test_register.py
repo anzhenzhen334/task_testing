@@ -29,6 +29,14 @@ class TestRegister(unittest.TestCase):
 
     @data(*cases)
     def test_register(self,case):
+        """
+
+        :param case: 入参中的case指的是把cases（读取excel的数据）拆包，得到一条一条的用例
+        :param CaseData.random_username 调用随机方法，生成username，放在CaseData类中，作为类属性，在replace_data方法中实施替换
+        :param data=eval(case['data'] 取到excel中case['data']的类型是字符串，字符串里面是字典，通过eval识别出字符串中的python表达式，得到字典
+        :param response.status_code得到响应的状态码；response.content得到byte类型的类型（使用response.content.decode('utf-8')转换），response.text得到文本形式的内容
+        :return:
+        """
         url = conf.get('env','base_url') + case['url']
         method = case['method']
 
@@ -44,10 +52,13 @@ class TestRegister(unittest.TestCase):
         status_code = response.status_code
         print('执行接口后状态码是：', status_code)
 
-        content = response.content.decode('utf-8')
-        if status_code == 201:
-            content = eval(content)
-            print('注册成功的接口信息为：',content)
+        res = response.json()
+        print('接口响应结果是：',res)
+
+        # content = response.content.decode('utf-8')
+        # if status_code == 201:
+        #     content = eval(content)
+        #     print('注册成功的接口信息为：',content)
 
         try:
             self.assertEqual(status_code,expected['status_code'])

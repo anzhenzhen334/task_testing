@@ -11,6 +11,7 @@ import unittest
 import os
 from common.handlerpath import CASE_DIR,REPORT_DIR
 from HTMLTestRunnerNew import HTMLTestRunner
+from common.handler_email import send_email
 
 suite = unittest.TestSuite()
 loader = unittest.TestLoader()
@@ -22,3 +23,4 @@ runner = HTMLTestRunner(stream=open(report_file,'wb'),
                         title='接口测试报告-ann',
                         tester='ann')
 runner.run(suite)
+send_email(filename=report_file,title='作业接口发送邮件-全部接口最终版')

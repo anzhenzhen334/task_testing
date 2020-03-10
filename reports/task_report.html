@@ -116,9 +116,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">接口测试报告-ann</h1>
 <p class='attribute'><strong>测试人员 : </strong> ann</p>
-<p class='attribute'><strong>开始时间 : </strong> 2020-03-09 16:57:36</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:06.182460</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 24，通过 24，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-03-10 10:55:09</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:14.208577</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 58，通过 58，通过率= 100.00%</p>
 
 <p class='description'>作业接口执行结果</p>
 </div>
@@ -127,8 +127,8 @@ function html_escape(s) {
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 24 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 24 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 58 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 58 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -168,7 +168,7 @@ function html_escape(s) {
     <div id='div_pt1_1' class="collapse in" align="left">
     <pre>
     
-pt1_1: 检验邮箱是否注册接口的url地址是： http://api.keyou.site:8000/user/77899403@163.com/count/
+pt1_1: 检验邮箱是否注册接口的url地址是： http://api.keyou.site:8000/user/59717643@qq.com/count/
 执行接口后状态码是： 200
 
 
@@ -278,7 +278,7 @@ pt1_5: 检验邮箱是否注册接口的url地址是： http://api.keyou.site:80
     <pre>
     
 pt2_1: 执行接口后状态码是： 201
-接口成功的接口信息为： {'id': 126, 'name': '接口ann030964810', 'tester': 'ann', 'project': '这是一个测试的项目编号ann030991558', 'project_id': 343, 'desc': '这是一个描述', 'create_time': '2020-03-09T16:57:36.697162+08:00'}
+执行接口后的响应结果是： {'id': 265, 'name': '接口ann030974919', 'tester': 'ann', 'project': '这是一个测试的项目编号ann030932286', 'project_id': 510, 'desc': '这是一个描述', 'create_time': '2020-03-10T10:55:09.566924+08:00'}
 
 
     </pre>
@@ -298,6 +298,7 @@ pt2_1: 执行接口后状态码是： 201
     <pre>
     
 pt2_2: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['具有 接口名称 的 接口信息 已存在。']}
 
 
     </pre>
@@ -317,6 +318,7 @@ pt2_2: 执行接口后状态码是： 400
     <pre>
     
 pt2_3: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'project_id': ['无效主键 “512999888” － 对象不存在。']}
 
 
     </pre>
@@ -336,6 +338,7 @@ pt2_3: 执行接口后状态码是： 400
     <pre>
     
 pt2_4: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['请确保这个字段不能超过 200 个字符。']}
 
 
     </pre>
@@ -355,6 +358,7 @@ pt2_4: 执行接口后状态码是： 400
     <pre>
     
 pt2_5: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'tester': ['请确保这个字段不能超过 50 个字符。']}
 
 
     </pre>
@@ -374,6 +378,7 @@ pt2_5: 执行接口后状态码是： 400
     <pre>
     
 pt2_6: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'desc': ['请确保这个字段不能超过 200 个字符。']}
 
 
     </pre>
@@ -393,6 +398,7 @@ pt2_6: 执行接口后状态码是： 400
     <pre>
     
 pt2_7: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['该字段不能为 null。']}
 
 
     </pre>
@@ -412,6 +418,7 @@ pt2_7: 执行接口后状态码是： 400
     <pre>
     
 pt2_8: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'tester': ['该字段不能为 null。']}
 
 
     </pre>
@@ -431,6 +438,7 @@ pt2_8: 执行接口后状态码是： 400
     <pre>
     
 pt2_9: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'project_id': ['该字段不能为 null。']}
 
 
     </pre>
@@ -459,7 +467,7 @@ pt2_9: 执行接口后状态码是： 400
     <pre>
     
 pt3_1: 执行接口后状态码是： 200
-登录成功的接口信息为： {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1OTUsInVzZXJuYW1lIjoiYW5uOTE4NjU2MyIsImV4cCI6MTU4MzgzMDY1OSwiZW1haWwiOiIxMzQzMTRAMTI2LmNvbSJ9.2I29FYGPAAZttIKOAwF9PNctbgKe-uPvc80YGzavVWI', 'user_id': 595, 'username': 'ann9186563'}
+执行接口后的响应结果是： {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1OTUsInVzZXJuYW1lIjoiYW5uOTE4NjU2MyIsImV4cCI6MTU4Mzg5NTMxMiwiZW1haWwiOiIxMzQzMTRAMTI2LmNvbSJ9.wax6NkOqPDMBWfoUmweO14-55RTb6Ck9yc-Jho92jac', 'user_id': 595, 'username': 'ann9186563'}
 
 
     </pre>
@@ -479,6 +487,7 @@ pt3_1: 执行接口后状态码是： 200
     <pre>
     
 pt3_2: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'non_field_errors': ['无法使用提供的认证信息登录。']}
 
 
     </pre>
@@ -498,6 +507,7 @@ pt3_2: 执行接口后状态码是： 400
     <pre>
     
 pt3_3: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'non_field_errors': ['无法使用提供的认证信息登录。']}
 
 
     </pre>
@@ -517,6 +527,7 @@ pt3_3: 执行接口后状态码是： 400
     <pre>
     
 pt3_4: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'username': ['该字段不能为 null。']}
 
 
     </pre>
@@ -536,6 +547,714 @@ pt3_4: 执行接口后状态码是： 400
     <pre>
     
 pt3_5: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'password': ['该字段不能为 null。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>test_project.TestProject</td>
+    <td class="text-center">13</td>
+    <td class="text-center">13</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c4',13)" class="detail" id='c4'>详细</a></td>
+</tr>
+
+<tr id='pt4_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_01: 成功创建项目</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_1'>通过</button>
+    <div id='div_pt4_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_1'>通过</button>
+    <div id='div_pt4_1' class="collapse in" align="left">
+    <pre>
+    
+pt4_1: 执行接口后状态码是： 201
+执行接口后的响应结果是： {'id': 519, 'create_time': '2020-03-10T10:55:13.465337+08:00', 'name': '这是一个测试的项目编号ann20024', 'leader': 'ann', 'tester': 'ann9186563', 'programmer': '小雅', 'publish_app': '自动化作业-应用', 'desc': 'ann创建项目的描述'}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_02: 项目已经存在（name存在）</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_2'>通过</button>
+    <div id='div_pt4_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_2'>通过</button>
+    <div id='div_pt4_2' class="collapse in" align="left">
+    <pre>
+    
+pt4_2: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['具有 项目名称 的 项目信息 已存在。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_03: 项目名称超过200个字符</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_3'>通过</button>
+    <div id='div_pt4_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_3'>通过</button>
+    <div id='div_pt4_3' class="collapse in" align="left">
+    <pre>
+    
+pt4_3: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['请确保这个字段不能超过 200 个字符。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_04: 项目负责人超过50个字符</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_4'>通过</button>
+    <div id='div_pt4_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_4'>通过</button>
+    <div id='div_pt4_4' class="collapse in" align="left">
+    <pre>
+    
+pt4_4: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['具有 项目名称 的 项目信息 已存在。'], 'leader': ['请确保这个字段不能超过 50 个字符。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_05: 项目测试人员超过50个字符</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_5'>通过</button>
+    <div id='div_pt4_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_5'>通过</button>
+    <div id='div_pt4_5' class="collapse in" align="left">
+    <pre>
+    
+pt4_5: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['具有 项目名称 的 项目信息 已存在。'], 'tester': ['请确保这个字段不能超过 50 个字符。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_06: 开发人员超过50个字符</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_6' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_6'>通过</button>
+    <div id='div_pt4_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_6' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_6'>通过</button>
+    <div id='div_pt4_6' class="collapse in" align="left">
+    <pre>
+    
+pt4_6: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['具有 项目名称 的 项目信息 已存在。'], 'programmer': ['请确保这个字段不能超过 50 个字符。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_07: 发布应用超过100个字符</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_7' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_7'>通过</button>
+    <div id='div_pt4_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_7' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_7'>通过</button>
+    <div id='div_pt4_7' class="collapse in" align="left">
+    <pre>
+    
+pt4_7: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['具有 项目名称 的 项目信息 已存在。'], 'publish_app': ['请确保这个字段不能超过 100 个字符。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_08: 简要描述超过200个字符</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_8' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_8'>通过</button>
+    <div id='div_pt4_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_8' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_8'>通过</button>
+    <div id='div_pt4_8' class="collapse in" align="left">
+    <pre>
+    
+pt4_8: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['具有 项目名称 的 项目信息 已存在。'], 'desc': ['请确保这个字段不能超过 200 个字符。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_09: 项目名称字段为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_9' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_9'>通过</button>
+    <div id='div_pt4_9' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_9' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_9'>通过</button>
+    <div id='div_pt4_9' class="collapse in" align="left">
+    <pre>
+    
+pt4_9: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['该字段不能为 null。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_10' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_10: 项目负责人字段为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_10' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_10'>通过</button>
+    <div id='div_pt4_10' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_10' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_10'>通过</button>
+    <div id='div_pt4_10' class="collapse in" align="left">
+    <pre>
+    
+pt4_10: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'leader': ['该字段不能为 null。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_11' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_11: 项目测试人员字段为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_11' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_11'>通过</button>
+    <div id='div_pt4_11' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_11' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_11'>通过</button>
+    <div id='div_pt4_11' class="collapse in" align="left">
+    <pre>
+    
+pt4_11: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'tester': ['该字段不能为 null。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_12' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_12: 发布应用字段为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_12' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_12'>通过</button>
+    <div id='div_pt4_12' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_12' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_12'>通过</button>
+    <div id='div_pt4_12' class="collapse in" align="left">
+    <pre>
+    
+pt4_12: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'publish_app': ['该字段不能为 null。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt4_13' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_project_13: 开发人员字段为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt4_13' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_13'>通过</button>
+    <div id='div_pt4_13' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt4_13' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_13'>通过</button>
+    <div id='div_pt4_13' class="collapse in" align="left">
+    <pre>
+    
+pt4_13: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'programmer': ['该字段不能为 null。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>test_register.TestRegister</td>
+    <td class="text-center">10</td>
+    <td class="text-center">10</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c5',10)" class="detail" id='c5'>详细</a></td>
+</tr>
+
+<tr id='pt5_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_01: 正常注册</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt5_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_1'>通过</button>
+    <div id='div_pt5_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt5_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt5_1'>通过</button>
+    <div id='div_pt5_1' class="collapse in" align="left">
+    <pre>
+    
+pt5_1: 执行接口后状态码是： 201
+接口响应结果是： {'id': 1276, 'username': 'ann6702691', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMjc2LCJ1c2VybmFtZSI6ImFubjY3MDI2OTEiLCJleHAiOjE1ODM4OTUzMTYsImVtYWlsIjoiMzc2MTkxQHFxLmNvbSJ9._Wj6QhJ0vAtUugqO9qk1yOfOYkvm6r1h_7rkKiY4HDU'}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_02: 用户名已经注册</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt5_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_2'>通过</button>
+    <div id='div_pt5_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt5_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt5_2'>通过</button>
+    <div id='div_pt5_2' class="collapse in" align="left">
+    <pre>
+    
+pt5_2: 执行接口后状态码是： 400
+接口响应结果是： {'username': ['已存在一位使用该名字的用户。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_03: 邮箱已经注册</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt5_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_3'>通过</button>
+    <div id='div_pt5_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt5_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt5_3'>通过</button>
+    <div id='div_pt5_3' class="collapse in" align="left">
+    <pre>
+    
+pt5_3: 执行接口后状态码是： 400
+接口响应结果是： {'email': ['此邮箱已注册']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_04: 密码小于6位</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt5_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_4'>通过</button>
+    <div id='div_pt5_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt5_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt5_4'>通过</button>
+    <div id='div_pt5_4' class="collapse in" align="left">
+    <pre>
+    
+pt5_4: 执行接口后状态码是： 400
+接口响应结果是： {'password': ['仅允许6-20个字符的密码'], 'password_confirm': ['仅允许6~20个字符的确认密码']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_05: 密码大于20位</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt5_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_5'>通过</button>
+    <div id='div_pt5_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt5_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt5_5'>通过</button>
+    <div id='div_pt5_5' class="collapse in" align="left">
+    <pre>
+    
+pt5_5: 执行接口后状态码是： 400
+接口响应结果是： {'password': ['仅允许6-20个字符的密码'], 'password_confirm': ['仅允许6~20个字符的确认密码']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_06: 密码和确认不一致</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt5_6' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_6'>通过</button>
+    <div id='div_pt5_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt5_6' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt5_6'>通过</button>
+    <div id='div_pt5_6' class="collapse in" align="left">
+    <pre>
+    
+pt5_6: 执行接口后状态码是： 400
+接口响应结果是： {'non_field_errors': ['两次输入密码不正确']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_07: 用户名为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt5_7' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_7'>通过</button>
+    <div id='div_pt5_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt5_7' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt5_7'>通过</button>
+    <div id='div_pt5_7' class="collapse in" align="left">
+    <pre>
+    
+pt5_7: 执行接口后状态码是： 400
+接口响应结果是： {'username': ['该字段不能为 null。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_08: 邮箱为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt5_8' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_8'>通过</button>
+    <div id='div_pt5_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt5_8' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt5_8'>通过</button>
+    <div id='div_pt5_8' class="collapse in" align="left">
+    <pre>
+    
+pt5_8: 执行接口后状态码是： 400
+接口响应结果是： {'email': ['该字段不能为 null。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_09: 密码为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt5_9' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_9'>通过</button>
+    <div id='div_pt5_9' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt5_9' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt5_9'>通过</button>
+    <div id='div_pt5_9' class="collapse in" align="left">
+    <pre>
+    
+pt5_9: 执行接口后状态码是： 400
+接口响应结果是： {'password': ['该字段不能为 null。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt5_10' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_register_10: 确认密码为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt5_10' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt5_10'>通过</button>
+    <div id='div_pt5_10' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt5_10' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt5_10'>通过</button>
+    <div id='div_pt5_10' class="collapse in" align="left">
+    <pre>
+    
+pt5_10: 执行接口后状态码是： 400
+接口响应结果是： {'password_confirm': ['该字段不能为 null。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>test_testcase.TestTestcases</td>
+    <td class="text-center">11</td>
+    <td class="text-center">11</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c6',11)" class="detail" id='c6'>详细</a></td>
+</tr>
+
+<tr id='pt6_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_testcases_01: 新增测试用例成功</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt6_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_1'>通过</button>
+    <div id='div_pt6_1' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt6_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt6_1'>通过</button>
+    <div id='div_pt6_1' class="collapse in" align="left">
+    <pre>
+    
+pt6_1: 执行接口后状态码是： 201
+执行接口后的响应结果是： {'id': 156, 'name': '0310执行用例接口名称ann031098892', 'interface': {'name': '接口ann031072308', 'project': '这是一个测试的项目编号ann67825'}, 'author': 'ann'}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_testcases_02: 用例名称已经存在</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt6_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_2'>通过</button>
+    <div id='div_pt6_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt6_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt6_2'>通过</button>
+    <div id='div_pt6_2' class="collapse in" align="left">
+    <pre>
+    
+pt6_2: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['具有 用例名称 的 用例信息 已存在。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_testcases_03: 所属项目id在系统中不存在</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt6_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_3'>通过</button>
+    <div id='div_pt6_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt6_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt6_3'>通过</button>
+    <div id='div_pt6_3' class="collapse in" align="left">
+    <pre>
+    
+pt6_3: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'interface': {'pid': ['所选项目不存在!']}}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_testcases_04: 所属接口id在系统中不存在</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt6_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_4'>通过</button>
+    <div id='div_pt6_4' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt6_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt6_4'>通过</button>
+    <div id='div_pt6_4' class="collapse in" align="left">
+    <pre>
+    
+pt6_4: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'interface': {'iid': ['所选接口不存在!']}}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_testcases_05: 项目id和接口id不匹配</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt6_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_5'>通过</button>
+    <div id='div_pt6_5' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt6_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt6_5'>通过</button>
+    <div id='div_pt6_5' class="collapse in" align="left">
+    <pre>
+    
+pt6_5: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'interface': {'non_field_errors': ['项目和接口信息不对应!']}}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_testcases_06: 用例名称超过50个字符</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt6_6' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_6'>通过</button>
+    <div id='div_pt6_6' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt6_6' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt6_6'>通过</button>
+    <div id='div_pt6_6' class="collapse in" align="left">
+    <pre>
+    
+pt6_6: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['请确保这个字段不能超过 50 个字符。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_testcases_07: 编写人员超过50个字符</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt6_7' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_7'>通过</button>
+    <div id='div_pt6_7' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt6_7' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt6_7'>通过</button>
+    <div id='div_pt6_7' class="collapse in" align="left">
+    <pre>
+    
+pt6_7: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'author': ['请确保这个字段不能超过 50 个字符。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_testcases_08: 名称为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt6_8' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_8'>通过</button>
+    <div id='div_pt6_8' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt6_8' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt6_8'>通过</button>
+    <div id='div_pt6_8' class="collapse in" align="left">
+    <pre>
+    
+pt6_8: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'name': ['该字段不能为 null。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_testcases_09: 所属项目和接口id为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt6_9' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_9'>通过</button>
+    <div id='div_pt6_9' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt6_9' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt6_9'>通过</button>
+    <div id='div_pt6_9' class="collapse in" align="left">
+    <pre>
+    
+pt6_9: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'interface': {'iid': ['该字段不能为 null。'], 'pid': ['该字段不能为 null。']}}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_10' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_testcases_10: 编写人员为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt6_10' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_10'>通过</button>
+    <div id='div_pt6_10' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt6_10' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt6_10'>通过</button>
+    <div id='div_pt6_10' class="collapse in" align="left">
+    <pre>
+    
+pt6_10: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'author': ['该字段不能为 null。']}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt6_11' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_testcases_11: 请求信息为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt6_11' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt6_11'>通过</button>
+    <div id='div_pt6_11' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt6_11' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt6_11'>通过</button>
+    <div id='div_pt6_11' class="collapse in" align="left">
+    <pre>
+    
+pt6_11: 执行接口后状态码是： 400
+执行接口后的响应结果是： {'request': ['该字段不能为 null。']}
 
 
     </pre>
@@ -549,21 +1268,21 @@ pt3_5: 执行接口后状态码是： 400
     <td class="text-center">5</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c4',5)" class="detail" id='c4'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c7',5)" class="detail" id='c7'>详细</a></td>
 </tr>
 
-<tr id='pt4_1' class='hiddenRow'>
+<tr id='pt7_1' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>test_user_1: 用户名已注册</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_pt4_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_1'>通过</button>
-    <div id='div_pt4_1' class="collapse">  -->
+    <button id='btn_pt7_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt7_1'>通过</button>
+    <div id='div_pt7_1' class="collapse">  -->
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt4_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_1'>通过</button>
-    <div id='div_pt4_1' class="collapse in" align="left">
+    <button id='btn_pt7_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt7_1'>通过</button>
+    <div id='div_pt7_1' class="collapse in" align="left">
     <pre>
     
-pt4_1: 检验用户名是否注册接口的url地址是： http://api.keyou.site:8000/user/keyou1/count/
+pt7_1: 检验用户名是否注册接口的url地址是： http://api.keyou.site:8000/user/keyou1/count/
 执行接口后状态码是： 200
 
 
@@ -572,18 +1291,18 @@ pt4_1: 检验用户名是否注册接口的url地址是： http://api.keyou.site
     </td>
 </tr>
 
-<tr id='pt4_2' class='hiddenRow'>
+<tr id='pt7_2' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>test_user_2: 用户名未注册</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_pt4_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_2'>通过</button>
-    <div id='div_pt4_2' class="collapse">  -->
+    <button id='btn_pt7_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt7_2'>通过</button>
+    <div id='div_pt7_2' class="collapse">  -->
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt4_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_2'>通过</button>
-    <div id='div_pt4_2' class="collapse in" align="left">
+    <button id='btn_pt7_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt7_2'>通过</button>
+    <div id='div_pt7_2' class="collapse in" align="left">
     <pre>
     
-pt4_2: 检验用户名是否注册接口的url地址是： http://api.keyou.site:8000/user/ann916357593/count/
+pt7_2: 检验用户名是否注册接口的url地址是： http://api.keyou.site:8000/user/ann404029317/count/
 执行接口后状态码是： 200
 
 
@@ -592,18 +1311,18 @@ pt4_2: 检验用户名是否注册接口的url地址是： http://api.keyou.site
     </td>
 </tr>
 
-<tr id='pt4_3' class='hiddenRow'>
+<tr id='pt7_3' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>test_user_3: 用户名小于6位</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_pt4_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_3'>通过</button>
-    <div id='div_pt4_3' class="collapse">  -->
+    <button id='btn_pt7_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt7_3'>通过</button>
+    <div id='div_pt7_3' class="collapse">  -->
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt4_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_3'>通过</button>
-    <div id='div_pt4_3' class="collapse in" align="left">
+    <button id='btn_pt7_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt7_3'>通过</button>
+    <div id='div_pt7_3' class="collapse in" align="left">
     <pre>
     
-pt4_3: 检验用户名是否注册接口的url地址是： http://api.keyou.site:8000/user/ann1/count/
+pt7_3: 检验用户名是否注册接口的url地址是： http://api.keyou.site:8000/user/ann1/count/
 执行接口后状态码是： 404
 
 
@@ -612,18 +1331,18 @@ pt4_3: 检验用户名是否注册接口的url地址是： http://api.keyou.site
     </td>
 </tr>
 
-<tr id='pt4_4' class='hiddenRow'>
+<tr id='pt7_4' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>test_user_4: 用户名大于20位</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_pt4_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_4'>通过</button>
-    <div id='div_pt4_4' class="collapse">  -->
+    <button id='btn_pt7_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt7_4'>通过</button>
+    <div id='div_pt7_4' class="collapse">  -->
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt4_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_4'>通过</button>
-    <div id='div_pt4_4' class="collapse in" align="left">
+    <button id='btn_pt7_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt7_4'>通过</button>
+    <div id='div_pt7_4' class="collapse in" align="left">
     <pre>
     
-pt4_4: 检验用户名是否注册接口的url地址是： http://api.keyou.site:8000/user/anzhenzhen12345678901/count/
+pt7_4: 检验用户名是否注册接口的url地址是： http://api.keyou.site:8000/user/anzhenzhen12345678901/count/
 执行接口后状态码是： 404
 
 
@@ -632,18 +1351,18 @@ pt4_4: 检验用户名是否注册接口的url地址是： http://api.keyou.site
     </td>
 </tr>
 
-<tr id='pt4_5' class='hiddenRow'>
+<tr id='pt7_5' class='hiddenRow'>
     <td class='passCase'><div class='testcase'>test_user_5: 用户名包含特殊字符</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_pt4_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_5'>通过</button>
-    <div id='div_pt4_5' class="collapse">  -->
+    <button id='btn_pt7_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt7_5'>通过</button>
+    <div id='div_pt7_5' class="collapse">  -->
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt4_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_5'>通过</button>
-    <div id='div_pt4_5' class="collapse in" align="left">
+    <button id='btn_pt7_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt7_5'>通过</button>
+    <div id='div_pt7_5' class="collapse in" align="left">
     <pre>
     
-pt4_5: 检验用户名是否注册接口的url地址是： http://api.keyou.site:8000/user/()$#^(*09/count/
+pt7_5: 检验用户名是否注册接口的url地址是： http://api.keyou.site:8000/user/()$#^(*09/count/
 执行接口后状态码是： 404
 
 
@@ -654,8 +1373,8 @@ pt4_5: 检验用户名是否注册接口的url地址是： http://api.keyou.site
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>24</td>
-    <td>24</td>
+    <td>58</td>
+    <td>58</td>
     <td>0</td>
     <td>0</td>
     <td>通过率：100.00%</td>
